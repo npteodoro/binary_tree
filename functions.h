@@ -1,9 +1,7 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
-#include <stdio.h>
-#include <stdlib.h>
-
 void printTree(int, void*);
+void testTreeOperations();
 
 #endif // FUNCTIONS_H
