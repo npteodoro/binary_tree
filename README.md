@@ -22,7 +22,7 @@ A simple and efficient implementation of a Binary Search Tree (BST) data structu
 Use the included Makefile to build the project:
 
 ```sh
-make         # Build the program
+make all     # Build the program
 make run     # Build and run
 make clean   # Clean build files
 make rebuild # Clean and rebuild
