@@ -1,5 +1,6 @@
-#include "binary_tree.h"
+#include "bst.h"
 #include "functions.h"
+#include <stdio.h>
 
 int main() {
     printf("Starting Binary Search Tree Tests\n");

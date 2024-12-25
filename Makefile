@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g
 
-SRC = main.c binary_tree.c functions.c
+SRC = main.c bst.c functions.c
 OBJ = $(SRC:.c=.o)
 
 TARGET = program
@@ -11,7 +11,7 @@ all: $(TARGET)
 $(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $(OBJ)
 
-%.o: %.c binary_tree.h functions.h
+%.o: %.c bst.h functions.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 run: all
